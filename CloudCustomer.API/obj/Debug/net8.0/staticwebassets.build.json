@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OJwwGSjg8ZOleYVv8ggJ9cpZF7X8nLMa43S8Ch/yigk=",
+  "Source": "CloudCustomer.API",
+  "BasePath": "_content/CloudCustomer.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

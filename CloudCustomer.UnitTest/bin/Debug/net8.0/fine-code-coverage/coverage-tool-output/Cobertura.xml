@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.454545454545455" branch-rate="0" lines-covered="25" lines-valid="55" branches-covered="0" branches-valid="2" complexity="16" version="0" timestamp="1721744241">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="CloudCustomer.API" line-rate="0.194444444444444" branch-rate="0" complexity="13">
+      <classes>
+        <class name="CloudCustomer.API.Controllers.UserControllers" filename="C:\dev\dotnet\CloudCustomers\CloudCustomer.API\Controllers\UserControllers.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="4" branch="false" />
+                <line number="13" hits="2" branch="false" />
+                <line number="14" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="GetResult" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="2" branch="false" />
+                <line number="19" hits="2" branch="false" />
+                <line number="20" hits="2" branch="false" />
+                <line number="21" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="4" branch="false" />
+            <line number="13" hits="2" branch="false" />
+            <line number="14" hits="2" branch="false" />
+            <line number="18" hits="2" branch="false" />
+            <line number="19" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="21" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="CloudCustomer.API.Models.Address" filename="C:\dev\dotnet\CloudCustomers\CloudCustomer.API\Models\Address.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Street" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_City" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ZipConde" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="false" />
+            <line number="6" hits="0" branch="false" />
+            <line number="7" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="CloudCustomer.API.Models.User" filename="C:\dev\dotnet\CloudCustomers\CloudCustomer.API\Models\User.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Email" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Adress" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="false" />
+            <line number="6" hits="0" branch="false" />
+            <line number="7" hits="0" branch="false" />
+            <line number="8" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Program" filename="C:\dev\dotnet\CloudCustomers\CloudCustomer.API\Program.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="&lt;Main&gt;$" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="1" hits="0" branch="false" />
+                <line number="2" hits="0" branch="false" />
+                <line number="5" hits="0" branch="false" />
+                <line number="6" hits="0" branch="false" />
+                <line number="7" hits="0" branch="false" />
+                <line number="9" hits="0" branch="false" />
+                <line number="12" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false" />
+            <line number="2" hits="0" branch="false" />
+            <line number="5" hits="0" branch="false" />
+            <line number="6" hits="0" branch="false" />
+            <line number="7" hits="0" branch="false" />
+            <line number="9" hits="0" branch="false" />
+            <line number="12" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="UsersServices" filename="C:\dev\dotnet\CloudCustomers\CloudCustomer.API\Services\UsersServices.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="GetAllUsers" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="CloudCustomer.UnitTest" line-rate="0.947368421052632" branch-rate="1" complexity="3">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\amanda.souza\.nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="CloudCustomer.UnitTest.Systems.Controllers.TestUserControllers" filename="C:\dev\dotnet\CloudCustomers\CloudCustomer.UnitTest\Systems\Controllers\TestUserControllers.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Get_OnSuccess_InvokesUserServiceExactlyOnce" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Get_OnSuccess_ReturnStatusCode200" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
